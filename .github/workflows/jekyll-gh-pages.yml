@@ -33,8 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: ZoeyVid/tailwindcss-update@v1.4.0
         with:
-          source: ./
-          destination: ./_site
+          input: style.css
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
